@@ -13,7 +13,7 @@ image:
 service:
   name: hello-service
   type: LoadBalancer
-  externalPort: 80
+  externalPort: 5000
   internalPort: 5000
 ingress:
   enabled: false
